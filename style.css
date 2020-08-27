@@ -1,0 +1,155 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+
+.body{
+    margin:0;
+    background:white;
+}
+
+.container{
+    width:1200px;
+    margin:auto;
+}
+
+.row{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.f-box{
+    width:100%;
+    margin:30px auto;
+}
+
+.f-box .f-img{
+    flex:0 0 25%;
+}
+
+.f-box .f-img img{
+    width:500px;
+    height:300px;
+    margin: 20px 20px;
+}
+
+
+.f-box .f-txt{
+    flex:0 0 35%;
+    padding:20px 25px;
+    margin:20px 40px;
+
+}
+
+.f-box .f-txt h2{
+    font-size: 35px;
+}
+
+.f-box .f-txt p{
+    font-size: 20px;
+}
+
+.f-txt a{
+    text-decoration: none;
+    margin:40px 80px;
+    color:black;
+    padding:10px 40px;
+    border:3px solid #000;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+.f-txt a:hover{
+    background-color:rgba(18, 207, 18, 0.685);
+    transition:0.5;
+    color:rgb(39, 32, 32);
+    box-shadow: 10px 10px 15px rgba(27, 9, 9, 0.781);
+}
+
+.f-box .fa-check{
+    margin-left:10px;
+    color:blue;
+    font-size: 20px;
+}
+
+/*section 2*/
+
+.p-box h2{
+    text-align: center;
+    font-size: 30px ;
+ 
+}
+
+.p-box p{
+    font-size: 20px;
+    text-align:center;
+   
+}
+
+.p-box1 h2{
+    font-size: 40px;
+}
+
+
+.p-box1{
+    flex:0 0 30%;
+    text-align: center;
+    height: 400px;
+    border:2px solid #000;
+    border-radius: 20px;
+    margin:10px 15px;
+}
+
+.p-box1 .fa-usd{
+    text-align: center;
+    font-size:30px;
+    color:blue;
+
+}
+
+.p-box1 p{
+    font-size:20px;
+}
+
+.p-box1 .fa-check{
+    font-size:20px;
+    color: blue;
+}
+
+.p-box1 .p-p1:after{
+    display:block;
+    height:2px;
+    content:  "";
+    width:100px;
+    background-color: teal;
+    margin:0 auto;
+    margin-top: 20px;
+}
+
+.p-box1 .fa-usd:after{
+    display:block;
+    height:2px;
+    content:  "";
+    width:100px;
+    background-color: teal;
+    margin:0 auto;
+    margin-top: 20px;
+}
+
+.p-box1 a{
+    text-decoration: none;
+    font-size:20px;
+    color:black;
+    border:3px solid #000;
+    border-radius:18px;
+    padding:10px 15px;
+    background-color: white;
+
+}
+
+
+.p-box1 a:hover{
+    transition: 0.5;
+    background-color: blue;
+    color:white;
+}
+
